@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+}
+
+.width {
+  position: absolute;
+  width: 100vw;
+  height: 0;
+  border: 1px solid white;
+  top: 50%;
+}
+
+.height {
+  position: absolute;
+  width: 0;
+  height: 100vw;
+  border: 1px solid white;
+  left: 50%;
+}
+
+.target {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 50%;
+  left: 50%;
+  margin: calc(-120px / 2);
+}
+
+.tag {
+  position: absolute;
+  bottom: 0;
+  right: -50px;
+  color: white;
+}
