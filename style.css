@@ -1,35 +1,32 @@
 body {
   background-color: black;
+  margin: 0;
+}
+
+.line {
+  position: absolute;
+  border: 1px solid white;
 }
 
 .width {
-  position: absolute;
+  top: 50%;
   width: 100vw;
   height: 0;
-  border: 1px solid white;
-  top: 50%;
 }
 
 .height {
-  position: absolute;
-  width: 0;
-  height: 100vw;
-  border: 1px solid white;
   left: 50%;
+  height: 100vw;
+  width: 0;
 }
 
 .target {
   position: absolute;
-  width: 120px;
-  height: 120px;
-  top: 50%;
-  left: 50%;
-  margin: calc(-120px / 2);
+  transform: translate(-50%, -50%);
 }
 
 .tag {
   position: absolute;
-  bottom: 0;
-  right: -50px;
   color: white;
+  transform: translate(20px, 20px);
 }
